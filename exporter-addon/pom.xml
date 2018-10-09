@@ -5,14 +5,14 @@
 	<groupId>org.vaadin.addons</groupId>
 	<artifactId>exporter</artifactId>
 	<packaging>jar</packaging>
-	<version>0.0.7</version>
+	<version>0.0.7-vaadin8-compatibility</version>
 	<name>Exporter</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.6</maven.compiler.source>
-		<maven.compiler.target>1.6</maven.compiler.target>
-		<vaadin.version>7.6.6</vaadin.version>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<vaadin.version>8.5.2</vaadin.version>
 		<vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
 
 		<!-- ZIP Manifest fields -->
@@ -72,16 +72,17 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-server</artifactId>
+			<artifactId>vaadin-compatibility-server</artifactId>
 			<version>${vaadin.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-client</artifactId>
+			<artifactId>vaadin-compatibility-client</artifactId>
 			<version>${vaadin.version}</version>
 			<scope>provided</scope>
 		</dependency>
 		<!-- http://mvnrepository.com/artifact/org.apache.poi/poi -->
+
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>

@@ -5,12 +5,12 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.Locale;
 
-import com.vaadin.data.Container;
+import com.vaadin.v7.data.Container;
 import com.vaadin.server.FileDownloader;
 import com.vaadin.server.StreamResource;
 import com.vaadin.server.StreamResource.StreamSource;
 import com.vaadin.ui.Button;
-import com.vaadin.ui.Table;
+import com.vaadin.v7.ui.Table;
 import org.vaadin.haijian.filegenerator.FileBuilder;
 
 public abstract class Exporter extends Button implements StreamSource {

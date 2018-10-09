@@ -5,7 +5,7 @@
 	<groupId>org.vaadin.addons</groupId>
 	<artifactId>exporter-root</artifactId>
 	<packaging>pom</packaging>
-	<version>0.0.7</version>
+	<version>0.0.7-vaadin8-compatibility</version>
 	<name>Exporter Add-on Root Project</name>
 
 	<modules>

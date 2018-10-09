@@ -22,7 +22,11 @@
     <!-- <set-property name="user.agent" value="safari"/> -->
 
 
-    <inherits name="com.vaadin.DefaultWidgetSet" />
+    
 
     <inherits name="org.vaadin.addons.WidgetSet" />
+
+    <inherits name="com.vaadin.v7.Vaadin7WidgetSet" />
+
+    <inherits name="com.vaadin.DefaultWidgetSet" />
 </module>

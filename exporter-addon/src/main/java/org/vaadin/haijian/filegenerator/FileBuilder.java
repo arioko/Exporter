@@ -9,8 +9,8 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 
-import com.vaadin.data.Container;
-import com.vaadin.data.Property;
+import com.vaadin.v7.data.Container;
+import com.vaadin.v7.data.Property;
 
 public abstract class FileBuilder implements Serializable {
     protected File file;

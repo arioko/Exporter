@@ -1,7 +1,7 @@
 package org.vaadin.haijian;
 
-import com.vaadin.data.Container;
-import com.vaadin.ui.Table;
+import com.vaadin.v7.data.Container;
+import com.vaadin.v7.ui.Table;
 import org.vaadin.haijian.filegenerator.ExcelFileBuilder;
 import org.vaadin.haijian.filegenerator.FileBuilder;
 

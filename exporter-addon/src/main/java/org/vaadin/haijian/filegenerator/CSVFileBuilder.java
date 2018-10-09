@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Calendar;
 import java.util.Date;
 
-import com.vaadin.data.Container;
+import com.vaadin.v7.data.Container;
 
 public class CSVFileBuilder extends FileBuilder {
     private FileWriter writer;

@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Calendar;
 import java.util.Date;
 
-import com.vaadin.data.Container;
+import com.vaadin.v7.data.Container;
 
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
